@@ -1,6 +1,7 @@
-import React from 'react';
-import SIPCalculator from './components/SIPCalculator';
+import SIPCalculator from './components/SIPCalculator'
 
-const App = () => <SIPCalculator />;
+function App() {
+  return <SIPCalculator />
+}
 
-export default App;
+export default App
